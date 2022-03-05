@@ -55,7 +55,7 @@
               echo "Selamat siang, username!" ;
             } else if ($time > 15 && $time <= 18) {
               echo "Selamat sore, username!" ;
-            } else if ($time > 18 && $time < 3) {
+            } else {
               echo "Selamat malam, username!" ;
             }
 
@@ -63,7 +63,7 @@
           </h6>
         </div>
         <div class="card-body pt-0 pb-4">
-
+          
         </div>
       </div>
     </div>

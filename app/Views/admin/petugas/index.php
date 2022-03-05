@@ -37,6 +37,8 @@
 </nav>
 <!-- End Navbar -->
 <div class="container-fluid py-4">
+  <?= view('templates/_partials/_message'); ?>
+
   <div class="row">
     <div class="col-12">
       <div class="card mb-4">
