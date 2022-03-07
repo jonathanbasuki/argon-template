@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
   <title>Invoice | PlainAdmin Demo</title>
 
   <!-- ========== All CSS files linkup ========= -->
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/lineicons.css">
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/fullcalendar.css">
   <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/auth.css">
 </head>
 <body>
@@ -30,7 +29,7 @@
                     </p>
                   </div>
                   <div class="invoice-logo">
-                    <img src="assets/images/invoice/uideck-logo.svg" alt="">
+                    <img src="" alt="">
                   </div>
                   <div class="invoice-date">
                     <p><span>Date Issued:</span> 20/02/2024</p>
@@ -162,34 +161,23 @@
           </div>
           <!-- end col-->
           <div class="col-md-6">
-            <div class="
-            terms
-            d-flex
-            justify-content-center justify-content-md-end
-            ">
-            <a href="#0" class="text-sm">Term &amp; Conditions</a>
-            <a href="#0" class="text-sm ml-15">Privacy &amp; Policy</a>
+            <div class="terms d-flex justify-content-center justify-content-md-end">
+              <a href="#0" class="text-sm">Term &amp; Conditions</a>
+              <a href="#0" class="text-sm ml-15">Privacy &amp; Policy</a>
+            </div>
           </div>
         </div>
+        <!-- end row -->
       </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </footer>
-  <!-- ========== footer end =========== -->
-</main>
-<!-- ======== main-wrapper end =========== -->
+      <!-- end container -->
+    </footer>
+    <!-- ========== footer end =========== -->
+  </main>
+  <!-- ======== main-wrapper end =========== -->
 
-<!-- ========= All Javascript files linkup ======== -->
-<script src="<?= base_url(); ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?= base_url(); ?>/assets/js/Chart.min.js"></script>
-<script src="<?= base_url(); ?>/assets/js/dynamic-pie-chart.js"></script>
-<script src="<?= base_url(); ?>/assets/js/moment.min.js"></script>
-<script src="<?= base_url(); ?>/assets/js/fullcalendar.js"></script>
-<script src="<?= base_url(); ?>/assets/js/jvectormap.min.js"></script>
-<script src="<?= base_url(); ?>/assets/js/world-merc.js"></script>
-<script src="<?= base_url(); ?>/assets/js/polyfill.js"></script>
-<script src="<?= base_url(); ?>/assets/js/auth.js"></script>
-
-
-</body></html>
+  <!-- ========= All Javascript files linkup ======== -->
+  <script src="<?= base_url(); ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/auth.js"></script>
+  
+</body>
+</html>
